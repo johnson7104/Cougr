@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-406-fix-example-require-player-auth-in-checkers-and",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-406-fix-example-require-player-auth-in-checkers-and": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-406-fix-example-require-player-auth-in-checkers-and",
+    "origin"
+  ]
+}
