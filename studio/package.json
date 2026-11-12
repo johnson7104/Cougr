@@ -12,7 +12,7 @@
     "./read-path": "./src/readPath.js"
   },
   "scripts": {
-    "build:tokens": "node init && node ../packages/tokens/build.js",
+    "build:tokens": "node ../packages/tokens/build.js",
     "validate:fixtures": "node tools/validate-fixtures.js",
     "render:fixtures": "node tools/render-fixtures.js",
     "test": "npm run build:tokens && node --test && vitest run tests/"
